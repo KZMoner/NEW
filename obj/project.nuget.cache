@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EWLGJ4OlMXA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Moner\\Desktop\\new\\New\\New.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Moner\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\10.0.1\\microsoft.entityframeworkcore.tools.10.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

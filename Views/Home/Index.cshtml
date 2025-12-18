@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+#name {
+  border: none;
+  border-bottom: 1px solid #ccc; /* adjust color as needed */
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 20px;
+}
+
+#name:focus {
+  outline: none;
+  box-shadow: none;
+  border-bottom: 2px solid #0d6efd; /* optional focus color */
+}
+</style>
+<table>
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+</table>
+
+
+<div class="text-center">
+    <div class="card " style="background-color: #f1efef;box-shadow: 1px 5px 5px 5px rgb(163, 154, 154);margin: 20px;">
+    <h1> Daliy Roten</h1>
+    <div class="card ">
+        <form action="">
+            <input type="email" class="form-control mt-2 " id="name" aria-describedby="emailHelp" placeholder="Date">
+            <input type="email" class="form-control mt-2" id="name" aria-describedby="emailHelp" placeholder="Work">
+            <input type="email" class="form-control mt-2" id="name" aria-describedby="emailHelp" placeholder="Where">
+            
+            <div class="text-end">
+             <button type="button" class="btn btn-primary mt-2 mb-2 ">save</button>
+             <button type="button" class="btn btn-danger m-2" >cancel</button>
+            </div>
+        </form>
+        
+        </div>
+    </div>
+</div>
